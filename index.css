@@ -1,0 +1,43 @@
+*{
+    padding:0%;
+    margin:0%;
+}
+label{
+    display:block;
+    margin:auto;
+    padding: 1rem;
+}
+#main{
+    display: flex;
+	height: 100vh;
+}
+#main_left{
+    text-align: center;
+    width:50%;
+    background-color: #22252a;
+    padding-top: 20%;
+}
+#main_right{
+    text-align: center;
+    width:50%;
+    padding-top: 10%;
+}
+h1{
+    font-weight: bolder;
+}
+input{
+    width: 50vh;
+    font-size: medium;
+    padding: 0.5rem;
+}
+button{
+    width: 30vh;
+    font-size:medium;
+    padding: 0.2rem;
+}
+#initial:hover{
+    color: #22252a;
+}
+p{
+    font-size:x-large;
+}
