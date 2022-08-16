@@ -15,18 +15,18 @@ function profitorloss(){
     if(cur > ip)
     {
       var profit = cur - ip;
-      var profitpercentage = profit / ip * 100;
-      console.log(profit);
+      var profitpercentage = (profit / ip) * 100;
+      //console.log(profit);
       output.style.color = 'green';
       output.innerText = " yup, your profit is "+ profit.toFixed(2)  +" and your profit percentage is "+profitpercentage.toFixed(2)+ "%";
     }
    else if(ip > cur)
     {
       var loss  = ip - cur;
-      var losspercentage = loss / ip * 100;
-      console.log(loss);
+      var losspercentage = (loss / ip) * 100;
+      //console.log(loss);
       output.style.color = 'red';
-      output.innerHTML = " oops :(, your loss is "+ loss.toFixed(2) +" and your loss percentage is "+losspercentage.toFixed(2)+ "%";
+      output.innerHTML = " oops :(  your loss is "+ loss.toFixed(2) +" and your loss percentage is "+losspercentage.toFixed(2)+ "%";
     }
     else
     {
