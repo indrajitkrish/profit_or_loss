@@ -6,6 +6,7 @@ label{
     display:block;
     margin:auto;
     padding: 1rem;
+    font-size: large;
 }
 #main{
     display: flex;
