@@ -12,12 +12,12 @@ function profitorloss(){
     var cur = current.value;
     if(ip != '' && qos !='' && cur !='')
 {
-  console.log("comes in");
+  //console.log("comes in");
     if(cur > ip)
     {
       var profit = (cur - ip) * qos
       var profitpercentage = (profit / ip) * 100;
-      console.log(profit);
+      //console.log(profit);
       output.style.color = 'green';
       output.innerText = " yup, your profit is "+ profit.toFixed(2)  +" and your profit percentage is "+profitpercentage.toFixed(2)+ "%";
     }
@@ -25,7 +25,7 @@ function profitorloss(){
     {
       var loss  = (ip - cur) * qos
       var losspercentage = (loss / ip) * 100;
-      console.log(loss);
+      //console.log(loss);
       output.style.color = 'red';
       output.innerHTML = " oops :(  your loss is "+ loss.toFixed(2) +" and your loss percentage is "+losspercentage.toFixed(2)+ "%";
     }
