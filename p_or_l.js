@@ -7,9 +7,9 @@ var output = document.querySelector("#output");
 button.addEventListener('click',profitorloss);
 
 function profitorloss(){
-    var ip = initial.value;
-    var qos = quantity.value;
-    var cur = current.value;
+    var ip = Number(initial.value);
+    var qos = Number(quantity.value);
+    var cur = Number(current.value);
     if(ip != '' && qos !='' && cur !='')
 {
   //console.log("comes in");
